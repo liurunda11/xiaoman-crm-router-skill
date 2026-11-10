@@ -1,0 +1,7 @@
+interface:
+  display_name: "小满 CRM Router"
+  short_description: "自动路由小满 CRM 查询、跟进分析与只读数据导出"
+  default_prompt: "Use $xiaoman-crm-router to route a Xiaoman CRM question, call the minimum read-only APIs, and explain the result."
+
+policy:
+  allow_implicit_invocation: true

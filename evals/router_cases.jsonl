@@ -1,0 +1,5 @@
+{"query":"找出30天没跟进的客户","intent":"stale_followups","operations":["list_customers","list_followup_trails"]}
+{"query":"看一下客户 ABC 的联系人和负责人","intent":"customer_profile","operations":["get_customer_detail","list_users"]}
+{"query":"把所有客户提取成 CSV","intent":"export_customers","operations":["list_customers","get_customer_detail"]}
+{"query":"分析线索、商机和订单成交情况","intent":"pipeline_analysis","operations":["list_leads","list_opportunities","list_followup_trails","list_orders"]}
+{"query":"把客户 ABC 移入公海","intent":"unsupported_write","operations":[]}

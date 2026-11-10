@@ -11,7 +11,13 @@
 ```bash
 git clone https://github.com/liurunda11/xiaoman-crm-router-skill.git
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills/xiaoman-crm-router"
-cp -R xiaoman-crm-router-skill/. "${CODEX_HOME:-$HOME/.codex}/skills/xiaoman-crm-router/"
+cp -R xiaoman-crm-router-skill/SKILL.md \
+  xiaoman-crm-router-skill/agents \
+  xiaoman-crm-router-skill/references \
+  xiaoman-crm-router-skill/scripts \
+  xiaoman-crm-router-skill/evals \
+  xiaoman-crm-router-skill/tests \
+  "${CODEX_HOME:-$HOME/.codex}/skills/xiaoman-crm-router/"
 ```
 
 重启 Codex 后，Skill 会自动识别提问中的“小满、Xiaoman、OKKI CRM、客户、跟进、线索、商机”等关键词。
